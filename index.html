@@ -2,34 +2,40 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>花タイプ診断トップ</title>
+  <title>診断セレクト｜花 or 宝石</title>
   <style>
     body {
-      text-align: center;
       font-family: sans-serif;
-      padding: 80px 20px;
-      background: #fffdf9;
+      background: #fdf6f0;
       color: #333;
+      padding: 40px;
+      text-align: center;
     }
     h1 {
-      color: #8e5a5a;
       font-size: 2em;
+      color: #b86b77;
+      margin-bottom: 40px;
     }
-    a.button {
+    .btn {
       display: inline-block;
-      padding: 14px 28px;
-      background-color: #8e5a5a;
+      margin: 20px;
+      padding: 20px 40px;
+      font-size: 1.3em;
       color: white;
-      text-decoration: none;
-      font-size: 18px;
+      background-color: #b86b77;
+      border: none;
       border-radius: 10px;
-      margin-top: 30px;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #a35e6b;
     }
   </style>
 </head>
 <body>
-  <h1>🌸 花タイプ診断 🌸</h1>
-  <p>あなたの感性にぴったりの花タイプを見つけよう。</p>
-  <a class="button" href="hanashin.html">診断をはじめる</a>
+  <h1>どちらの診断を受けますか？</h1>
+  <a href="hana/index.html" class="btn">🌸 花の診断へ</a>
+  <a href="houseki/index.html" class="btn">💎 宝石の診断へ</a>
 </body>
 </html>
